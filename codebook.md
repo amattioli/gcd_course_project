@@ -14,7 +14,7 @@ The run_analysis.R produces a dataset in the following way:
 
 The final dataset has the following columns. Note: all the measures are normalized in the range [-1,1].
 
-activity_code 
+activity_code       
 Activity code as in y_train.txt and y_test.txt
              
 activity_label            
@@ -53,7 +53,7 @@ Gravity Acceleration mean on Z axis
 tGravityAcc_std_X         
 Gravity Acceleration standard deviation on X axis
 
-tGravityAcc_std_Y
+tGravityAcc_std_Y      
 Gravity Acceleration standard deviation on Y axis
          
 tGravityAcc_std_Z         
@@ -140,10 +140,10 @@ Gyroscope Signal Magnitude standard deviation
 tBodyGyroJerkMag_mean     
 Gyroscope Jerk Magnitude mean
 
-tBodyGyroJerkMag_std      
+tBodyGyroJerkMag_std            
 Gyroscope Jerk Magnitude standard deviation
 
-fBodyAcc_mean_X
+fBodyAcc_mean_X      
 Fast fourier transform of Body Acceleration, mean on X axis
           
 fBodyAcc_mean_Y          
@@ -203,7 +203,7 @@ Fast fourier transform of Body Acceleration Magnitude, mean
 fBodyAccMag_std           
 Fast fourier transform of Body Acceleration Magnitude, standard deviation
 
-fBodyBodyAccJerkMag_mean
+fBodyBodyAccJerkMag_mean      
 Fast fourier transform of Body Acceleration Jerk Magnitude, mean
  
 fBodyBodyAccJerkMag_std   
@@ -215,8 +215,8 @@ Fast fourier transform of Gyroscope Signal Magnitude, mean
 fBodyBodyGyroMag_std      
 Fast fourier transform of Gyroscope Signal Magnitude, standard deviation
 
-fBodyBodyGyroJerkMag_mean
+fBodyBodyGyroJerkMag_mean      
 Fast fourier transform of Gyroscope Jerk Magnitude, mean
 
-fBodyBodyGyroJerkMag_std 
+fBodyBodyGyroJerkMag_std       
 Fast fourier transform of Gyroscope Jerk Magnitude, standard deviation
