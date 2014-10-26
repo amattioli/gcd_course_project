@@ -14,7 +14,7 @@ The run_analysis.R produces a dataset in the following way:
 
 The final dataset has the following columns. Note: all the measures are normalized in the range [-1,1].
 
-activity_code
+activity_code 
 Activity code as in y_train.txt and y_test.txt
              
 activity_label            
